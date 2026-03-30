@@ -11,7 +11,7 @@ This project simulates a real-world cloud support incident involving intermitten
 - RDS database
 - CloudWatch monitoring
 
-![architecture](architecture/architecture-lab-1.png)
+![Architecture](Architecture/architecture-lab-1.png)
 
 ---
 
