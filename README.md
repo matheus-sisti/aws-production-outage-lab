@@ -1,11 +1,11 @@
-# 🚨 AWS Production Outage Lab
+#  AWS Production Outage Lab
 
-## 🎯 Purpose
+##  Purpose
 This project simulates a real-world cloud support incident involving intermittent downtime in a multi-tier AWS architecture.
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 - Application Load Balancer (ALB)
 - EC2 instances (Auto Scaling)
 - RDS database
@@ -15,7 +15,7 @@ This project simulates a real-world cloud support incident involving intermitten
 
 ---
 
-## ⚠️ Issues Simulated
+##  Issues Simulated
 - Broken health check path
 - One EC2 instance misconfigured
 - Security group blocking HTTP traffic
@@ -23,33 +23,33 @@ This project simulates a real-world cloud support incident involving intermitten
 
 ---
 
-## 🔍 Troubleshooting Approach
+##  Troubleshooting Approach
 - Checked ALB target group health
 - Tested instances using curl
 - Verified nginx service status
 - Analyzed CloudWatch metrics
 
-👉 Full troubleshooting steps: [troubleshooting.md](troubleshooting.md)
+ Full troubleshooting steps: [troubleshooting.md](troubleshooting.md)
 
 ---
 
-## 🛠 Fixes Applied
+##  Fixes Applied
 - Fixed health check configuration
 - Restarted and configured nginx
 - Updated security group rules
 - Resolved high CPU usage
 
-👉 Detailed fixes: [fixes.md](fixes.md)
+ Detailed fixes: [fixes.md](fixes.md)
 
 ---
 
-## ⚙️ Scripts
+##  Scripts
 - Nginx setup: scripts/install_nginx.sh
 - CPU stress simulation: scripts/stress_cpu.sh
 
 ---
 
-## 🧠 Skills Demonstrated
+##  Skills Demonstrated
 - AWS troubleshooting
 - Incident analysis
 - Root cause identification
@@ -57,5 +57,5 @@ This project simulates a real-world cloud support incident involving intermitten
 
 ---
 
-## 📌 Real-world relevance
+##  Real-world relevance
 This lab reflects common production issues handled by Cloud Support Engineers.
