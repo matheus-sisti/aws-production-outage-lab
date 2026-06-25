@@ -58,4 +58,4 @@ This project simulates a real-world cloud support incident involving intermitten
 ---
 
 ##  Real-world relevance
-This lab reflects common production issues handled by Cloud Support Engineers.
+This lab reflects common production issues handled by Cloud Support Engineers. .
